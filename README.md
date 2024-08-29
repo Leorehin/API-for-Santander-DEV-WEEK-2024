@@ -43,4 +43,9 @@ classDiagram
     User "1" *-->"1" Card
     User "1" *-->"N" Feature
     User "1" *-->"N" News
-```mermaid
+```
+
+## Abstração
+
+    Com a imagem chegamos a esse diagrama de classes acima em que agora precisamos implementa-lo de forma a resgatar esses objetos de um banco de dados para exibir ao cliente em sua tela inicial.
+
