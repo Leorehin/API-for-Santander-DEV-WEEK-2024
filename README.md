@@ -47,5 +47,9 @@ classDiagram
 
 ## Abstração
 
-    Com a imagem chegamos a esse diagrama de classes acima em que agora precisamos implementa-lo de forma a resgatar esses objetos de um banco de dados para exibir ao cliente em sua tela inicial.
+Com a imagem chegamos a esse diagrama de classes acima em que agora precisamos implementa-lo de forma a resgatar esses objetos de um banco de dados para exibir ao cliente em sua tela inicial.
+
+## Tecnologias usadas
+
+Neste projeto fizemos o projeto Gradle com seus recursos em um .yml na pasta respectiva. Dessa forma podemos implementar a aplicação quer fará a criação de um objeto conta e o recuperará através de seu ID definido na classe do objeto. O banco de dados utilizado nesse momento foi o H2 por ser um banco em memoria ideal para teste de aplicação no formato SQL com integração pela persistencia JPA do Java. Assim utilizamos o principio SOLID em nossa implementação do serviço, pois o codigo não fica exposto ao usuario caso ocorra algum erro ou algo parecido.
 
