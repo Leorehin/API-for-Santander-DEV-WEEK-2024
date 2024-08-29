@@ -1,6 +1,12 @@
-# Santander Dev Bootcamp Backend Java
-Criacao de uma plataforma api restful no java
+# API para o app Santander Dev Week 2024
+
+O objetivo dessa aplicação é criar uma backend para o aplicativo do santander baseado na tela inicial que contem informacoes como conta, saldo e alguns banners de acordo com a imgame.
+
+![image](https://github.com/user-attachments/assets/367da8be-37a7-49fb-b134-7aa0bb8da1de)
+
+
 ## Diagrama de classes
+
 ```mermaid
 classDiagram
     class User {
